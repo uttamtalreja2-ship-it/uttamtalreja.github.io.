@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Khakra-e-Khaas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Khakra-e-Khaas</h1>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="hero">
+      <h2>Welcome to Khakra-e-Khaas</h2>
+      <p>Authentic, crispy, and handcrafted khakras made with love and tradition.</p>
+    </section>
+
+    <section id="about">
+      <h3>About Us</h3>
+      <p>
+        At <strong>Khakra-e-Khaas</strong>, we bring you the taste of Gujarat in its purest form. 
+        Our khakras are made with handpicked ingredients, roasted to perfection, 
+        and packed with crunch that keeps you coming back for more.
+      </p>
+    </section>
+
+    <section id="products">
+      <h3>Our Products</h3>
+      <ul>
+        <li>Masala Khakra</li>
+        <li>Methi Khakra</li>
+        <li>Jeera Khakra</li>
+        <li>Special Khaas Edition</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h3>Contact Us</h3>
+      <p>Email: <a href="mailto:info@khakraekhaas.com">info@khakraekhaas.com</a></p>
+      <p>Follow us on Instagram: <a href="#">@khakra_e_khaas</a></p>
+    </section>
+  </main>
+
+  <footer class="container">
+    <p>© <span id="year"></span> Khakra-e-Khaas | Taste that lingers...</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+📌 File 2 — styles.css
+Create another file named styles.css and paste this:
+
+css
+Copy code
